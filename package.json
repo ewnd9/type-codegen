@@ -1,0 +1,41 @@
+{
+  "name": "type-codegen",
+  "description": "Insert a snippet, generate a type definition, copy paste it to your source code",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint 'packages/**/*.js'",
+    "precommit": "npm run lint && npm test",
+    "test": "ava '**/test.js'",
+    "test:watch": "npm run test -- --watch"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "keywords": [
+    "codegen"
+  ],
+  "dependencies": {
+    "jscodeshift": "^0.3.30",
+    "lodash.uniqby": "^4.7.0",
+    "recast": "^0.11.17",
+    "tcomb": "^3.2.15"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-eslint": "^6.0.0",
+    "eslint": "^3.0.0",
+    "husky": "^0.11.6",
+    "lodash.uniq": "^4.5.0"
+  },
+  "author": "ewnd9 <ewndnine@gmail.com>",
+  "files": [
+    "index.js",
+    "packages"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewnd9/type-codegen.git"
+  }
+}
