@@ -1,7 +1,7 @@
 {
   "name": "type-codegen",
   "description": "Insert a snippet, generate a type definition, copy paste it to your source code",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "lint": "eslint 'packages/**/*.js'",
