@@ -97,6 +97,10 @@ got('https://api.reddit.com/r/node/new')
   });
 ```
 
+## Related
+
+- [json-to-flow](https://www.npmjs.com/package/json-to-flow) - Convert JSON type definitions to Flow types.
+
 ## License
 
 MIT © [ewnd9](http://ewnd9.com)
