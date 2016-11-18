@@ -100,6 +100,7 @@ got('https://api.reddit.com/r/node/new')
 ## Related
 
 - [json-to-flow](https://www.npmjs.com/package/json-to-flow) - Convert JSON type definitions to Flow types.
+- [json-to-json-schema](https://github.com/mohsen1/json-to-json-schema) - Convert a JSON to a JSON Schema describing that JSON
 
 ## License
 
