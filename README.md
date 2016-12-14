@@ -2,14 +2,14 @@
 
 [![Build Status](https://travis-ci.org/ewnd9/type-codegen.svg?branch=master)](https://travis-ci.org/ewnd9/type-codegen)
 
-Codegen for type systems.
+[WIP] Codegen for type systems.
 
 Insert a snippet, generate a type definition, copy paste it to your source code.
 
 ## Install
 
 ```sh
-$ npm install type-codegen -g
+$ npm install type-codegen --save-dev
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ got('https://api.reddit.com/r/node/new')
   .then(res => {
     const data = JSON.parse(res.body);
 
-    console.log(require('type-codegen/packages/tcomb-codegen').generateCode(data));
+    console.log(require('type-codegen')('tcomb', data));
     /*
     t.struct({
         kind: t.String,
@@ -44,7 +44,7 @@ got('https://api.reddit.com/r/node/new')
     })
     */
 
-    console.log(require('type-codegen/packages/react-prop-types-codegen').generateCode(data));
+    console.log(require('type-codegen')('tcomb', data));
 
     /*
     PropTypes.shape({

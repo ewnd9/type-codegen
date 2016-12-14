@@ -1,7 +1,6 @@
 'use strict';
 
 exports.generateAST = require('./generate-ast');
-exports.generateCode = require('./generate-code');
 
 /*
 Links:

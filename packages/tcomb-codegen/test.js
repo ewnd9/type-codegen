@@ -1,6 +1,9 @@
 import test from 'ava';
-import { generateAST, generateRuntime } from './';
-import { astToCode as toCode } from './generate-code';
+
+import generateAST from './generate-ast';
+import generateRuntime from './generate-runtime';
+
+import toCode from '../utils/generate-code';
 
 test('undefined', t => {
   const r = generateRuntime(undefined);
