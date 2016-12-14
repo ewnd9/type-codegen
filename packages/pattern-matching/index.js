@@ -19,6 +19,8 @@ function match(input, matcher) {
     return matcher.array(input);
   } else if (t === 'object') {
     return matcher.object(input);
+  } else if (t === 'function') {
+    return matcher.function(input);
   } else {
     throw new Error(`unknown ${t}`);
   }

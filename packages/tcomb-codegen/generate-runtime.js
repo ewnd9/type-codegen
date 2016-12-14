@@ -15,6 +15,7 @@ function generate(input) {
     number: () => t.Number,
     boolean: () => t.Boolean,
     string: () => t.String,
+    function: () => t.Function,
     array: xs => generateArray(xs),
     object: x => generateObject(x)
   };

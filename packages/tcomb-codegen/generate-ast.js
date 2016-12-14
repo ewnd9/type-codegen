@@ -14,6 +14,7 @@ const tNumber = tt('Number');
 const tBoolean = tt('Boolean');
 const tNil = tt('Nil');
 const tAny = tt('Any');
+const tFunction = tt('Function');
 
 module.exports = format;
 module.exports.formatProps = formatProps;
@@ -46,6 +47,8 @@ function format(input) {
     return tNil;
   } else if (isType(input, 'Any')) {
     return tAny;
+  } else if (isType(input, 'Function')) {
+    return tFunction;
   }
 
   throw new Error(`unknown input: ${getType(input)}`);

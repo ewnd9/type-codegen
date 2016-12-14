@@ -62,6 +62,13 @@ test('object', t => {
   t.truthy(toCode(generateAST(r2)) === 't.struct({\n    x: t.Number,\n\n    y: t.struct({\n        z: t.list(t.String)\n    })\n})');
 });
 
+test('function', t => {
+  const r0 = generateRuntime(x => x);
+
+  t.truthy(getType(r0) === 'Function');
+  t.truthy(toCode(generateAST(r0)) === 't.Function');
+});
+
 function getType(type) {
   return type.displayName;
 }
