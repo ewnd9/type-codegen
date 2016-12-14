@@ -43,6 +43,32 @@ got('https://api.reddit.com/r/node/new')
         })
     })
     */
+
+    console.log(require('type-codegen/packages/react-prop-types-codegen').generateCode(data));
+
+    /*
+    PropTypes.shape({
+        kind: PropTypes.string.isRequired,
+
+        data: PropTypes.shape({
+            modhash: PropTypes.string.isRequired,
+
+            children: PropTypes.arrayOf(PropTypes.shape({
+                kind: PropTypes.string.isRequired,
+
+                data: PropTypes.shape({
+                    contest_mode: PropTypes.bool.isRequired,
+                    banned_by: PropTypes.any.isRequired,
+                    domain: PropTypes.string.isRequired,
+                    ...
+                }).isRequired
+            }).isRequired).isRequired,
+
+            after: PropTypes.string.isRequired,
+            before: PropTypes.any.isRequired
+        }).isRequired
+    }).isRequired
+    */
   })
   .catch(err => {
     console.log(err.stack || err)
