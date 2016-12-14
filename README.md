@@ -79,6 +79,10 @@ got('https://api.reddit.com/r/node/new')
 
 - [json-to-flow](https://www.npmjs.com/package/json-to-flow) - Convert JSON type definitions to Flow types.
 - [json-to-json-schema](https://github.com/mohsen1/json-to-json-schema) - Convert a JSON to a JSON Schema describing that JSON
+- [json-schema-to-typescript](https://github.com/bcherny/json-schema-to-typescript) - Compile json schema to typescript typings
+- [generate-schema](https://github.com/nijikokun/generate-schema) - Convert your JSON Object to JSON Schema
+- [joi-to-json-schema](https://github.com/lightsofapollo/joi-to-json-schema) - The goal is to provide best effort conversion from Joi objects to JSON Schema
+- [enjoi](https://github.com/tlivings/enjoi) - Converts a JSON schema to a Joi schema.
 
 ## License
 
