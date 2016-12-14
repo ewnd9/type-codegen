@@ -12,7 +12,7 @@ Insert a snippet, generate a type definition, copy paste it to your source code.
 $ npm install type-codegen --save-dev
 ```
 
-## Usage
+## Example
 
 ```js
 'use strict';
@@ -44,7 +44,7 @@ got('https://api.reddit.com/r/node/new')
     })
     */
 
-    console.log(require('type-codegen')('tcomb', data));
+    console.log(require('type-codegen')('react', data));
 
     /*
     PropTypes.shape({
