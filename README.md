@@ -83,6 +83,7 @@ got('https://api.reddit.com/r/node/new')
 - [generate-schema](https://github.com/nijikokun/generate-schema) - Convert your JSON Object to JSON Schema
 - [joi-to-json-schema](https://github.com/lightsofapollo/joi-to-json-schema) - The goal is to provide best effort conversion from Joi objects to JSON Schema
 - [enjoi](https://github.com/tlivings/enjoi) - Converts a JSON schema to a Joi schema.
+- [lofi-schema-elm](https://github.com/RoyalIcing/lofi-schema-elm) - Friendly syntax for creating schemas, output to Swift, React PropTypes, Elm, Golang, MongoDB, and more
 
 ## License
 
