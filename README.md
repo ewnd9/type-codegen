@@ -8,9 +8,7 @@ Insert a snippet, generate a type definition, copy paste it to your source code.
 
 ## Install
 
-```sh
-$ npm install type-codegen --save-dev
-```
+The `type-codegen` package was manually unpublished from npm on 2025-08-28. The name has been released for potential future use.
 
 ## Example
 
